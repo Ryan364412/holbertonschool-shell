@@ -1,21 +1,2 @@
-#!/bin/bash
+#!/bin/bas
 pwd
-#!/bin/bash
-[exec_bash] Command to run:
-pwd
-su student_jail -c 'timeout 30 bash -c pwd'
-[exec_bash] Return code: 0
-[exec_bash] Student stdout:
-/home/student_jail/student_repo/basics
-[exec_bash] Student stdout length: 39
-[exec_bash] Student stderr:
-[exec_bash] Student stderr length: 0
-[exec_bash] Command to run:
-./0-current_working_directory
-su student_jail -c 'timeout 30 bash -c ./0-current_working_directory'
-[exec_bash] Return code: 126
-[exec_bash] Student stdout:
-[exec_bash] Student stdout length: 0
-[exec_bash] Student stderr:
-bash: ./0-current_working_directory: Permission denied
-[exec_bash] Student stderr length: 55
